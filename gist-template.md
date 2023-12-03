@@ -27,6 +27,8 @@ The regex components that define this particular expression are anchors, quantif
 
 ### Anchors
 
+Anchors within regex mark the start and end points of the expression. In regards to this expression, the `^` marks the start of the expression and the `$` marks the end of the expression. 
+
 ### Quantifiers
 
 ### Grouping Constructs
