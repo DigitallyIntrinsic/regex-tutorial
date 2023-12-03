@@ -46,6 +46,8 @@ Quantifiers allow the specification of how many character or character classes s
 
 ### The OR Operator
 
+There are no OR operators within this particular regex expression but in general OR operators are represented with the pipe `|` and specified under the regex type of alternation.
+
 ### Flags
 
 ### Character Escapes
