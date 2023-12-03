@@ -44,6 +44,10 @@ Quantifiers allow the specification of how many character or character classes s
 
 ### Bracket Expressions
 
+`[]` create a character or group range and represent a single character. In regards to the regex expression this tutorial is covering, the brackets are used to separate each character class. The character can be anything specified within the brackets.
+
+Example: `[a-z0-9_\.-]` -> this character can be matched with any lowercase letters from `a-z`, and digit from `0-9`, an underscore `_`, a period `.`, or a dash `-`. 
+
 ### Character Classes
 
 ### The OR Operator
