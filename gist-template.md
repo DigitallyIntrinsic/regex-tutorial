@@ -50,6 +50,20 @@ Example: `[a-z0-9_\.-]` -> this character can be matched with any lowercase lett
 
 ### Character Classes
 
+Character classes are the attribute in a regex expression that allow us to define specific sets of characters that can be used in a search pattern.
+
+The character classes utilized in this regex expression are `[a-z0-9_\.-]`, `[\da-z\.-]`, and `[a-z\.]`.
+
+`[a-z0-9_\.-]`: `a-z` matches a single character in the range between a (index 97) and z (index 122) (case sensitive), `0-9` matches a single character in the range between 0 (index 48) and 9 (index 57) (case sensitive), `_` matches the character _ with index 9510 (5F16 or 1378) literally (case sensitive), `\.` matches the character . with index 4610 (2E16 or 568) literally (case sensitive), and `-` matches the character - with index 4510 (2D16 or 558) literally (case sensitive).
+
+`[\da-z\.-]`: `\d` can be used to match any digit (0-9), `a-z` matches a single character in the range between a (index 97) and z (index 122) (case sensitive), `\.` matches the character . with index 4610 (2E16 or 568) literally (case sensitive), and `-` matches the character - with index 4510 (2D16 or 558) literally (case sensitive).
+
+`[a-z\.]`: `a-z` matches a single character in the range between a (index 97) and z (index 122) (case sensitive), and `\.` matches the character . with index 4610 (2E16 or 568) literally (case sensitive)
+
+Other examples of single characters:
+
+`\d` can be used to match any digit (0-9), `\w` to match any alphanumeric character (a-zA-Z0-9), and `\s` any white space such as a space or a tab
+
 ### The OR Operator
 
 There are no OR operators within this particular regex expression but in general OR operators are represented with the pipe `|` and specified under the regex type of alternation.
