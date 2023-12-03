@@ -86,4 +86,10 @@ For example:
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+DigitallyIntrinsic is a systems administrator with a bachelors degree in Political Science whose interest in the merging of technology and social governance serves to carry our past forward through further integration, application and analysis, and into the cutting edge frontier of emerging modern technologies.
+
+Have additional questions? Click the links below to reach DigitallyIntrinsic through his GitHub account or Email address.
+
+[Link to Github](https://github.com/digitallyintrinsic)
+
+<a href="mailto:gitboot@1002.us">gitboot@1002.us</a>
