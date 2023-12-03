@@ -40,6 +40,8 @@ Quantifiers allow the specification of how many character or character classes s
 
 ### Grouping Constructs
 
+`()` creates a sequence or sub expression and is a way to treat multiple characters as a single unit. You will notice the regex expression being covered in this tutorial uses `()` to distinct groups of characters. The first set covers all characters before the `@` symbol. The second group coveres all characters before the `.`, and the last group covers all characters from the `.` to the end.
+
 ### Bracket Expressions
 
 ### Character Classes
