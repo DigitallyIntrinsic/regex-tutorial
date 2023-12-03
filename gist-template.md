@@ -76,6 +76,14 @@ The regex expression covered in this tutorial does not utilize flags.
 
 ### Character Escapes
 
+In regular expressions (regex), a character escape is a mechanism that allows you to match a character with a special meaning in the regex syntax as a literal character. In other words, it allows you to "escape" or treat a special character as a regular character.
+
+In regex, many characters have special meanings, such as "*", ".", "+", "?", "^", "$", and others. If you want to match one of these characters literally, you need to use a backslash ("") before the special character. This is known as a character escape.
+
+For example:
+
+\. is used to match a literal period (dot), rather than the special meaning of any character in regex.
+
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
