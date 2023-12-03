@@ -50,6 +50,10 @@ There are no OR operators within this particular regex expression but in general
 
 ### Flags
 
+Regex flags are used to modify an expressions behavior -> case sensitivity, etc. There are only 6 of them in JavaScript -> i: case-sensitivity, g: looks for all matches, m: multiline mode, s: enables "dotall" mode that allows a dot `.` to match a newline character `\n`, u: enables full Unicode support, and y: "sticky" mode. 
+
+The regex expression covered in this tutorial does not utilize flags.
+
 ### Character Escapes
 
 ## Author
