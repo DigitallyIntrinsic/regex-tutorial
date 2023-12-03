@@ -31,6 +31,13 @@ Anchors within regex mark the start and end points of the expression. In regards
 
 ### Quantifiers
 
+Quantifiers are meta characters that modify the previous character in the regex and say, how many of those do I want to match in a row.
+
+Quantifiers allow the specification of how many character or character classes should be matched.
+
+- The `+` sign matches one or more preceeding character
+- `{min, max}` create a specific numerical quantifier range (you will notice this is used at the end of the regex expression     above at the end to give a specific range to the domain name system)
+
 ### Grouping Constructs
 
 ### Bracket Expressions
